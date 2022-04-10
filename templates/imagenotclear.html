@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fake or Real</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Varela+Round&display=swap');
+      body{
+          background-color: rgb(255, 255, 255);
+      }
+      *{
+          margin: 0;
+          padding: 0;
+      }
+      nav{
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 300;
+          font-size: 20px;
+      }
+      .txt{
+          cursor: pointer;
+      }
+      nav ul{
+          display: flex;
+          align-items: center;
+          list-style-type: none;
+          height: 90px;
+          background-color: rgb(19, 97, 170);
+          color: rgb(255, 255, 255);
+      }
+      nav ul li{
+          padding: 0 12px;
+      }
+      .brand img{
+          width: px;
+          padding: 0 8px;
+      }
+
+      .brand{
+          display: flex;
+          align-items: center;
+          font-weight: bolder;
+          font-size: 2rem;
+      }
+
+      .container{
+          min-height:82vh;
+          background-color: rgba(19, 97, 170,0.6);
+          font-family: 'Montserrat', sans-serif;
+          display:block;
+          margin: 20px auto;
+          width: 50%;
+          border-radius: 20px;
+          padding: 34px;
+          /*background-image: url('bg.jpg');*/
+      }
+
+      .bottom{
+          position: sticky;
+          height: 110px;
+          background-color:black ;
+          bottom: 0px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          flex-direction: column;
+      }
+      .icons{
+          margin-top: 15px;
+      }
+      .icons i{
+          cursor: pointer;
+          padding:0 5px ;
+      }
+      label{
+          background-color: indigo;
+          color: white;
+          padding: 0.5rem;
+          font-family: sans-serif;
+          border-radius: 0.3rem;
+          cursor: pointer;
+          margin-top: 1rem;
+          
+      }
+      h3{
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 60px;
+      }
+      button{
+          background-color: indigo;
+          color: white;
+          padding: 0.7rem;
+          font-size: 15px;
+          right: -10px;
+          font-family: sans-serif;
+          border-radius: 0.3rem;
+          cursor: pointer;
+          
+      }
+      .upload{
+          position:relative;
+          align-items: center;
+          margin-top: 5%;
+      }
+      button.up{
+        width:100%
+      }
+
+      .imageshow{
+          margin-top: 5%; ;
+      }
+      img{
+          
+          border-radius: 0%;
+          width: 70%;
+      }
+      img.center{
+          display: block;
+          margin: 0 auto;
+          border: 5px solid rgb(255, 255, 255);
+          display: none;
+          
+      }
+      img.logo{
+          width: fit-content;
+      }
+      
+
+    </style>
+</head>
+<body>
+  <!--Nav bar-->
+  
+    <nav>
+        <ul>
+            <li class="brand"><img class="logo" src="../static/face2.png">Fake or Real</li>
+            
+        </ul>
+    </nav>
+
+  <div class="result" >
+      <h3>Image is not clear</h3>
+  </div>
+
+
+
+</body>
+</html>
